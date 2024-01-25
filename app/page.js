@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <main className="fixed inset-0 bg-[url(/background.gif)] bg-cover text-white select-none overflow-auto leading-none">
       <div className="md:w-1/3 p-4 mx-auto flex flex-col gap-4 bg-black bg-opacity-80 backdrop-blur shadow-2xl">
-        <iframe className="w-full h-[240px] md:h-[360px]" src="https://www.youtube-nocookie.com/embed/DV7w5RTjBfM" allow="autoplay"></iframe>
+        <iframe className="w-full h-[240px] md:h-[360px]" src="https://www.youtube-nocookie.com/embed/Q03wrCOUpis" allow="autoplay"></iframe>
 
         <div className="flex justify-between text-2xl">
           <h1 className="hover:text-green-500">Bruninho</h1>
