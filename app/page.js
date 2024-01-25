@@ -107,7 +107,7 @@ export default function Home() {
         </div>
 
         <div className="flex flex-col gap-4">
-          <h2 className="mx-auto text-2xl">~ todos meus haters parecem com o <a href="https://chaves.fandom.com/pt-br/wiki/Nhonho" target="_blank" className="underline">Nhonho</a> ~</h2>
+          <h2 className="mx-auto text-2xl hover:text-green-500">~ todos meus haters parecem com o <a href="https://chaves.fandom.com/pt-br/wiki/Nhonho" target="_blank" className="underline">Nhonho</a> ~</h2>
         </div>
 
         <div className="flex flex-col gap-4">
