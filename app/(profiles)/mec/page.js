@@ -5,10 +5,10 @@ export const metadata = {
 
 export default function Mec() {
   return (
-    <div className="absolute inset-0 flex flex-col gap-8 p-8 lg:px-[12rem] lg:py-[4.20rem] overflow-auto">
-      <header className="flex justify-between">
-        <div className="flex gap-8">
-          <img className="w-[124px] h-[124px] rounded-full" src="/mec/profile.gif" />
+    <div className="absolute inset-0 flex flex-col gap-4 p-4 lg:px-[12rem] lg:py-[4.20rem] overflow-auto">
+      <header>
+        <div className="flex gap-4">
+          <img className="w-[124px] h-[124px] rounded-lg" src="/mec/profile.gif" />
 
           <div className="flex flex-col gap-4 my-auto">
             <h1 className="text-2xl font-bold">vulgo mec</h1>
