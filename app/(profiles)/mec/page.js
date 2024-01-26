@@ -100,7 +100,9 @@ export default function Mec() {
             </div>
 
             <div>
-              <img className="h-auto max-w-full rounded-lg" src="/mec/5.jpg" />
+              <video className="h-auto max-w-full rounded-lg" autoPlay muted loop>
+                <source src="/mec/7.mp4" type="video/mp4" />
+              </video>
             </div>
 
             <div>
