@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
         <link rel="icon" type="image/png" sizes="16x16" href="/icon.png" />
       </head>
 
-      <body className={`bg-zinc-950 text-white select-none antialiased ${outfit.className}`}>{children}</body>
+      <body className={`bg-black text-white select-none antialiased ${outfit.className}`}>{children}</body>
     </html>
   );
 }
