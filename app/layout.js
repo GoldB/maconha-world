@@ -1,29 +1,17 @@
-import './globals.css'
-import localFont from 'next/font/local'
+import { Outfit } from "next/font/google";
+import './globals.css';
 
-const alkhemikal = localFont({
-  src: [
-    {
-      path: './fonts/Alkhemikal.ttf',
-      weight: 'normal',
-      style: 'normal'
-    }
-  ]
-})
+const outfit = Outfit({ subsets: ['latin'] });
 
 export const metadata = {
-  title: "Vídeos pornô gratuitos - XVIDEOS.COM",
-  description: "XVIDEOS Vídeos pornô gratuitos"
+  title: "maconha.world",
+  description: "#TT"
 }
 
 export default function RootLayout({ children }) {
   return (
     <html lang="pt-BR">
-      <head>
-        <link rel="icon" type="image/png" sizes="16x16" href="/icon.png" />
-      </head>
-
-      <body className={alkhemikal.className}>{children}</body>
+      <body className={`bg-zinc-950 text-white select-none antialiased ${outfit.className}`}>{children}</body>
     </html>
   );
 }

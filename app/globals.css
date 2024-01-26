@@ -5,8 +5,3 @@
 * {
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
-
-html,
-body {
-    cursor: url("../public/nat120.cur"), default;
-}
