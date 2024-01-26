@@ -1,3 +1,8 @@
+export const metadata = {
+  title: "maconha.world ~ vulgo mec",
+  description: "#TT"
+}
+
 export default function Mec() {
   return (
     <div className="absolute inset-0 flex flex-col gap-8 p-8 lg:px-[12rem] lg:py-[4.20rem] overflow-auto">
