@@ -11,7 +11,7 @@ export default function Jardineiro() {
           <img className="w-[124px] h-[124px] rounded-lg" src="/jardineiro/profile.gif" />
 
           <div className="flex flex-col gap-4 my-auto">
-            <h1 className="text-2xl font-bold">Dedé</h1>
+            <h1 className="text-2xl font-bold">vulgo jardim</h1>
           </div>
         </div>
       </header>
