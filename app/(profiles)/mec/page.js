@@ -45,7 +45,7 @@ export default function Mec() {
             <img className="w-[124px] h-[124px] rounded-2xl" src="/mec/profile.jpg" />
 
             <div className="flex flex-col gap-4 my-auto">
-              <h1 className="text-2xl font-bold">vulgo mec</h1>
+              <h1 className="text-2xl font-bold leading-none">vulgo mec</h1>
 
               <div className="flex gap-4">
                 <a href="https://instagram.com/vulgo_mec" target="_blank">
