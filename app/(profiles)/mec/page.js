@@ -1,5 +1,3 @@
-"use client";
-
 export const metadata = {
   title: "maconha.world ~ vulgo mec",
   description: "#TT",
