@@ -42,7 +42,7 @@ export default function Mec() {
       <div className="absolute inset-0 flex flex-col gap-4 p-4 lg:px-[12rem] lg:py-[4.20rem] overflow-auto bg-black bg-opacity-75 backdrop-blur">
         <header>
           <div className="flex gap-4">
-            <img className="w-[124px] h-[124px] rounded-lg" src="/mec/profile.jpg" />
+            <img className="w-[124px] h-[124px] rounded-2xl" src="/mec/profile.jpg" />
 
             <div className="flex flex-col gap-4 my-auto">
               <h1 className="text-2xl font-bold">vulgo mec</h1>
@@ -68,17 +68,17 @@ export default function Mec() {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
             <div className="grid gap-4 h-fit">
               <div>
-                <video className="h-auto max-w-full rounded-lg" autoPlay muted loop>
+                <video className="h-auto max-w-full rounded-2xl" autoPlay muted loop>
                   <source src="/mec/1.mp4" type="video/mp4" />
                 </video>
               </div>
 
               <div>
-                <img className="h-auto max-w-full rounded-lg" src="/mec/1.jpg" />
+                <img className="h-auto max-w-full rounded-2xl" src="/mec/1.jpg" />
               </div>
 
               <div>
-                <video className="h-auto max-w-full rounded-lg" autoPlay muted loop>
+                <video className="h-auto max-w-full rounded-2xl" autoPlay muted loop>
                   <source src="/mec/2.mp4" type="video/mp4" />
                 </video>
               </div>
@@ -86,17 +86,17 @@ export default function Mec() {
 
             <div className="grid gap-4 h-fit">
               <div>
-                <img className="h-auto max-w-full rounded-lg" src="/mec/2.jpg" />
+                <img className="h-auto max-w-full rounded-2xl" src="/mec/2.jpg" />
               </div>
 
               <div>
-                <video className="h-auto max-w-full rounded-lg" autoPlay muted loop>
+                <video className="h-auto max-w-full rounded-2xl" autoPlay muted loop>
                   <source src="/mec/3.mp4" type="video/mp4" />
                 </video>
               </div>
 
               <div>
-                <video className="h-auto max-w-full rounded-lg" autoPlay muted loop>
+                <video className="h-auto max-w-full rounded-2xl" autoPlay muted loop>
                   <source src="/mec/4.mp4" type="video/mp4" />
                 </video>
               </div>
@@ -104,17 +104,17 @@ export default function Mec() {
 
             <div className="grid gap-4 h-fit">
               <div>
-                <video className="h-auto max-w-full rounded-lg" autoPlay muted loop>
+                <video className="h-auto max-w-full rounded-2xl" autoPlay muted loop>
                   <source src="/mec/5.mp4" type="video/mp4" />
                 </video>
               </div>
 
               <div>
-                <img className="h-auto max-w-full rounded-lg" src="/mec/5.jpeg" />
+                <img className="h-auto max-w-full rounded-2xl" src="/mec/5.jpeg" />
               </div>
 
               <div>
-                <video className="h-auto max-w-full rounded-lg" autoPlay muted loop>
+                <video className="h-auto max-w-full rounded-2xl" autoPlay muted loop>
                   <source src="/mec/6.mp4" type="video/mp4" />
                 </video>
               </div>
@@ -122,17 +122,17 @@ export default function Mec() {
 
             <div className="grid gap-4 h-fit">
               <div>
-                <img className="h-auto max-w-full rounded-lg" src="/mec/3.jpg" />
+                <img className="h-auto max-w-full rounded-2xl" src="/mec/3.jpg" />
               </div>
 
               <div>
-                <video className="h-auto max-w-full rounded-lg" autoPlay muted loop>
+                <video className="h-auto max-w-full rounded-2xl" autoPlay muted loop>
                   <source src="/mec/7.mp4" type="video/mp4" />
                 </video>
               </div>
 
               <div>
-                <img className="h-auto max-w-full rounded-lg" src="/mec/4.jpg" />
+                <img className="h-auto max-w-full rounded-2xl" src="/mec/4.jpg" />
               </div>
             </div>
           </div>
