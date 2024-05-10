@@ -1,19 +1,43 @@
-export const metadata = {
-  title: "maconha.world ~ vulgo mec",
-  description: "#TT",
-};
+"use client";
+
+import { AnimatePresence, motion } from "framer-motion";
+import { useState } from "react";
 
 export default function Mec() {
+  const [isProtected, setIsProtected] = useState(true);
+
   return (
     <div className="absolute inset-0 overflow-hidden">
-      <iframe
-        className="absolute h-[150%] w-[150%] top-[-50%] left-[-25%]"
-        src="https://www.youtube-nocookie.com/embed/R0ykLlhg0AQ?si=kJ-jeaYoH9ANjPm7&amp;autoplay=1&amp;controls=0"
-        title="YouTube video player"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerPolicy="strict-origin-when-cross-origin"
-        allowFullScreen
-      ></iframe>
+      <AnimatePresence>
+        {isProtected ? (
+          <motion.div
+            initial={{
+              opacity: 1,
+            }}
+            exit={{
+              opacity: 0,
+            }}
+            transition={{
+              duration: 0.2,
+            }}
+            className="absolute inset-0 bg-black z-10 flex justify-center items-center text-4xl"
+            onClick={() => setIsProtected(false)}
+          >
+            Clique aqui
+          </motion.div>
+        ) : null}
+      </AnimatePresence>
+
+      {isProtected ? null : (
+        <iframe
+          className="absolute h-[150%] w-[150%] top-[-50%] left-[-25%]"
+          src="https://www.youtube-nocookie.com/embed/R0ykLlhg0AQ?si=kJ-jeaYoH9ANjPm7&amp;autoplay=1&amp;controls=0"
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerPolicy="strict-origin-when-cross-origin"
+          allowFullScreen
+        />
+      )}
 
       <div className="absolute inset-0 flex flex-col gap-4 p-4 lg:px-[12rem] lg:py-[4.20rem] overflow-auto bg-black bg-opacity-75 backdrop-blur">
         <header>
