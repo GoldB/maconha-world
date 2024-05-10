@@ -30,7 +30,7 @@ export default function Mec() {
 
       {isProtected ? null : (
         <iframe
-          className="absolute h-[150%] w-[150%] top-[-50%] left-[-25%]"
+          className="absolute h-[200%] w-[200%] lg:h-[150%] lg:w-[150%] top-[-85%] left-[-50%] lg:top-[-50%] lg:left-[-25%]"
           src="https://www.youtube-nocookie.com/embed/R0ykLlhg0AQ?si=kJ-jeaYoH9ANjPm7&amp;autoplay=1&amp;controls=0"
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
