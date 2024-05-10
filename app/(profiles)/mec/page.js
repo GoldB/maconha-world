@@ -23,7 +23,7 @@ export default function Mec() {
             className="absolute inset-0 bg-black z-10 flex justify-center items-center text-4xl"
             onClick={() => setIsProtected(false)}
           >
-            Clique aqui
+            clique aqui
           </motion.div>
         ) : null}
       </AnimatePresence>
