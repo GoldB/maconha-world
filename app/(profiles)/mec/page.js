@@ -30,8 +30,8 @@ export default function Mec() {
 
       {isProtected ? null : (
         <iframe
-          className="absolute h-[200%] w-[200%] lg:h-[150%] lg:w-[150%] top-[-90%] left-[-50%] lg:top-[-50%] lg:left-[-25%]"
-          src="https://www.youtube-nocookie.com/embed/R0ykLlhg0AQ?si=kJ-jeaYoH9ANjPm7&amp;autoplay=1&amp;controls=0"
+          className="absolute h-[200%] w-[200%] top-[-90%] left-[-50%] lg:top-[-80%] lg:left-[-25%]"
+          src="https://www.youtube-nocookie.com/embed/f1evxUbMJ_c?si=kJ-jeaYoH9ANjPm7&amp;autoplay=1&amp;controls=0"
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           referrerPolicy="strict-origin-when-cross-origin"
@@ -39,7 +39,7 @@ export default function Mec() {
         />
       )}
 
-      <div className="absolute inset-0 flex flex-col gap-4 p-4 lg:px-[12rem] lg:py-[4.20rem] overflow-auto bg-black bg-opacity-75 backdrop-blur">
+      <div className="absolute inset-0 flex flex-col gap-4 p-4 lg:px-[12rem] lg:py-[4.20rem] overflow-auto bg-black bg-opacity-75 backdrop-blur-sm lg:backdrop-blur backdrop-grayscale backdrop-contrast-200">
         <header>
           <div className="flex gap-4">
             <img className="w-[124px] h-[124px] rounded-2xl" src="/mec/profile.jpg" />
