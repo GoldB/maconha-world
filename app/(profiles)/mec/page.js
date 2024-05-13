@@ -27,7 +27,7 @@ export default function Mec() {
           </motion.div>
         ) : (
           <iframe
-            className="absolute h-[200%] w-[200%] top-[-90%] left-[-50%] lg:top-[-80%] lg:left-[-25%]"
+            className="absolute hidden lg:block h-[175%] w-[175%] top-[-50%] left-[-25%]"
             src="https://www.youtube-nocookie.com/embed/_v7BThrUPB0?si=kJ-jeaYoH9ANjPm7&amp;autoplay=1&amp;controls=0"
             title="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
