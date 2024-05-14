@@ -6,7 +6,7 @@ export default function Home() {
       </header>
 
       <footer>
-        <p className="text-zinc-600 text-sm">&copy; 2024 trem tiroteio. todos os direitos reservados.</p>
+        <p className="text-zinc-600 text-sm">&copy; {new Date().getFullYear()} trem tiroteio. todos os direitos reservados.</p>
       </footer>
     </div>
   );

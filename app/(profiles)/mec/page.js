@@ -169,6 +169,10 @@ export default function Mec() {
             </div>
           </div>
         </main>
+
+        <footer className="mt-[4.20rem] text-center">
+          <p className="text-zinc-500 text-sm">&copy; {new Date().getFullYear()} trem tiroteio. todos os direitos reservados.</p>
+        </footer>
       </div>
     </div>
   );
