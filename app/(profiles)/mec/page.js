@@ -20,7 +20,7 @@ export default function Mec() {
             transition={{
               duration: 0.2,
             }}
-            className="absolute inset-0 bg-black z-10 flex justify-center items-center text-4xl"
+            className="absolute inset-0 bg-black z-10 flex justify-center items-center text-4xl font-thin"
             onClick={() => setIsProtected(false)}
           >
             clique aqui
