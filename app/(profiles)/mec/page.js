@@ -170,8 +170,8 @@ export default function Mec() {
           </div>
         </main>
 
-        <footer className="mt-[4.20rem] text-center">
-          <p className="text-zinc-500 text-sm">&copy; {new Date().getFullYear()} trem tiroteio. todos os direitos reservados.</p>
+        <footer className="mt-0 lg:mt-[4.20rem] text-center">
+          <p className="text-white font-thin text-opacity-25 text-sm leading-none">&copy; {new Date().getFullYear()} trem tiroteio. todos os direitos reservados.</p>
         </footer>
       </div>
     </div>
