@@ -20,22 +20,25 @@ export default function Mec() {
             transition={{
               duration: 0.2,
             }}
+            layout
             className="absolute inset-0 bg-black z-10 flex justify-center items-center text-4xl font-thin"
             onClick={() => setIsProtected(false)}
           >
             clique aqui
           </motion.div>
-        ) : (
-          <iframe
-            className="absolute hidden lg:block h-[175%] w-[175%] top-[-50%] left-[-25%]"
-            src="https://www.youtube-nocookie.com/embed/_v7BThrUPB0?si=kJ-jeaYoH9ANjPm7&amp;autoplay=1&amp;controls=0"
-            title="YouTube video player"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerPolicy="strict-origin-when-cross-origin"
-            allowFullScreen
-          />
-        )}
+        ) : null}
       </AnimatePresence>
+
+      {isProtected ? null : (
+        <iframe
+          className="absolute hidden lg:block h-[175%] w-[175%] top-[-50%] left-[-25%]"
+          src="https://www.youtube-nocookie.com/embed/_v7BThrUPB0?si=kJ-jeaYoH9ANjPm7&amp;autoplay=1&amp;controls=0"
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerPolicy="strict-origin-when-cross-origin"
+          allowFullScreen
+        />
+      )}
 
       <div className="absolute inset-0 flex flex-col gap-[.420rem] p-[.420rem] lg:px-[12rem] lg:py-[4.20rem] overflow-auto bg-black bg-opacity-75 backdrop-blur-sm lg:backdrop-blur backdrop-grayscale backdrop-contrast-200 backdrop-brightness-200">
         <header>
