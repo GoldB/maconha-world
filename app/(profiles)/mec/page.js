@@ -68,59 +68,59 @@ export default function Mec() {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-[.420rem]">
             <div className="grid gap-[.420rem] h-fit">
               <div>
-                <video className="h-auto max-w-full rounded-[.420rem]" autoPlay muted loop>
+                <video className="h-auto min-w-full rounded-[.420rem]" autoPlay muted loop>
                   <source src="/mec/1.mp4" type="video/mp4" />
                 </video>
               </div>
 
               <div>
-                <img className="h-auto max-w-full rounded-[.420rem]" src="/mec/1.jpg" />
+                <img className="h-auto min-w-full rounded-[.420rem]" src="/mec/1.jpg" />
               </div>
 
               <div>
-                <video className="h-auto max-w-full rounded-[.420rem]" autoPlay muted loop>
+                <video className="h-auto min-w-full rounded-[.420rem]" autoPlay muted loop>
                   <source src="/mec/2.mp4" type="video/mp4" />
                 </video>
               </div>
 
               <div>
-                <video className="h-auto max-w-full rounded-[.420rem]" autoPlay muted loop>
+                <video className="h-auto min-w-full rounded-[.420rem]" autoPlay muted loop>
                   <source src="/mec/8.mp4" type="video/mp4" />
                 </video>
               </div>
 
               <div>
-                <img className="h-auto max-w-full rounded-[.420rem]" src="/mec/10.jpg" />
+                <img className="h-auto min-w-full rounded-[.420rem]" src="/mec/10.jpg" />
               </div>
             </div>
 
             <div className="grid gap-[.420rem] h-fit">
               <div>
-                <img className="h-auto max-w-full rounded-[.420rem]" src="/mec/2.jpg" />
+                <img className="h-auto min-w-full rounded-[.420rem]" src="/mec/2.jpg" />
               </div>
 
               <div>
-                <video className="h-auto max-w-full rounded-[.420rem]" autoPlay muted loop>
+                <video className="h-auto min-w-full rounded-[.420rem]" autoPlay muted loop>
                   <source src="/mec/3.mp4" type="video/mp4" />
                 </video>
               </div>
 
               <div>
-                <img className="h-auto max-w-full rounded-[.420rem]" src="/mec/8.png" />
+                <img className="h-auto min-w-full rounded-[.420rem]" src="/mec/8.png" />
               </div>
 
               <div>
-                <video className="h-auto max-w-full rounded-[.420rem]" autoPlay muted loop>
+                <video className="h-auto min-w-full rounded-[.420rem]" autoPlay muted loop>
                   <source src="/mec/4.mp4" type="video/mp4" />
                 </video>
               </div>
 
               <div>
-                <img className="h-auto max-w-full rounded-[.420rem]" src="/mec/9.jpg" />
+                <img className="h-auto min-w-full rounded-[.420rem]" src="/mec/9.jpg" />
               </div>
 
               <div>
-                <video className="h-auto max-w-full rounded-[.420rem]" autoPlay muted loop>
+                <video className="h-auto min-w-full rounded-[.420rem]" autoPlay muted loop>
                   <source src="/mec/9.mp4" type="video/mp4" />
                 </video>
               </div>
@@ -128,43 +128,43 @@ export default function Mec() {
 
             <div className="grid gap-[.420rem] h-fit">
               <div>
-                <video className="h-auto max-w-full rounded-[.420rem]" autoPlay muted loop>
+                <video className="h-auto min-w-full rounded-[.420rem]" autoPlay muted loop>
                   <source src="/mec/5.mp4" type="video/mp4" />
                 </video>
               </div>
 
               <div>
-                <img className="h-auto max-w-full rounded-[.420rem]" src="/mec/5.jpeg" />
+                <img className="h-auto min-w-full rounded-[.420rem]" src="/mec/5.jpeg" />
               </div>
 
               <div>
-                <video className="h-auto max-w-full rounded-[.420rem]" autoPlay muted loop>
+                <video className="h-auto min-w-full rounded-[.420rem]" autoPlay muted loop>
                   <source src="/mec/6.mp4" type="video/mp4" />
                 </video>
               </div>
 
               <div>
-                <img className="h-auto max-w-full rounded-[.420rem]" src="/mec/7.jpg" />
+                <img className="h-auto min-w-full rounded-[.420rem]" src="/mec/7.jpg" />
               </div>
             </div>
 
             <div className="grid gap-[.420rem] h-fit">
               <div>
-                <img className="h-auto max-w-full rounded-[.420rem]" src="/mec/3.jpg" />
+                <img className="h-auto min-w-full rounded-[.420rem]" src="/mec/3.jpg" />
               </div>
 
               <div>
-                <video className="h-auto max-w-full rounded-[.420rem]" autoPlay muted loop>
+                <video className="h-auto min-w-full rounded-[.420rem]" autoPlay muted loop>
                   <source src="/mec/7.mp4" type="video/mp4" />
                 </video>
               </div>
 
               <div>
-                <img className="h-auto max-w-full rounded-[.420rem]" src="/mec/4.jpg" />
+                <img className="h-auto min-w-full rounded-[.420rem]" src="/mec/4.jpg" />
               </div>
 
               <div>
-                <img className="h-auto max-w-full rounded-[.420rem]" src="/mec/6.jpg" />
+                <img className="h-auto min-w-full rounded-[.420rem]" src="/mec/6.jpg" />
               </div>
             </div>
           </div>

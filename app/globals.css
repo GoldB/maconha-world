@@ -3,5 +3,39 @@
 @tailwind utilities;
 
 * {
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+::-webkit-scrollbar-thumb {
+  background: #22c55e;
+  border: 0px none #ffffff;
+  border-radius: 0px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #22c55e;
+}
+::-webkit-scrollbar-thumb:active {
+  background: #16a34a;
+}
+::-webkit-scrollbar-track {
+  background: #000;
+  border: 0px none #ffffff;
+  border-radius: 0px;
+}
+::-webkit-scrollbar-track:hover {
+  background: #000;
+}
+::-webkit-scrollbar-track:active {
+  background: #000;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
 }
