@@ -31,7 +31,7 @@ export default function Mec() {
 
       {isProtected ? null : (
         <iframe
-          className="absolute hidden lg:block h-[175%] w-[175%] top-[-50%] left-[-25%]"
+          className="absolute hidden lg:block h-[175%] w-[175%] top-[-40%] left-[-25%]"
           src="https://www.youtube-nocookie.com/embed/BgThysdP9lc?si=kJ-jeaYoH9ANjPm7&amp;autoplay=1&amp;controls=0"
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
