@@ -33,14 +33,14 @@ export default function Mec() {
         <>
           <iframe
             className="absolute hidden lg:block h-[175%] w-[200%] top-[-40%] left-[-50%] blur-lg grayscale contrast-200 brightness-200"
-            src="https://www.youtube-nocookie.com/embed/u_BK6Gt5Fek?autoplay=1&amp;controls=0"
+            src="https://www.youtube-nocookie.com/embed/J88ht1y4-RE?autoplay=1&amp;controls=0"
             title="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerPolicy="strict-origin-when-cross-origin"
             allowFullScreen
           />
 
-          <div className="absolute inset-0 opacity-75 noise" />
+          <div className="hidden lg:flex absolute inset-0 opacity-75 noise" />
         </>
       )}
 
@@ -91,13 +91,11 @@ export default function Mec() {
               </div>
 
               <div>
-                <video className="h-auto min-w-full rounded-[.420rem]" autoPlay muted loop>
-                  <source src="https://i.imgur.com/68bbG0D.mp4" type="video/mp4" />
-                </video>
+                <img className="h-auto min-w-full rounded-[.420rem]" src="https://i.imgur.com/n1O65gt.jpeg" />
               </div>
 
               <div>
-                <img className="h-auto min-w-full rounded-[.420rem]" src="https://i.imgur.com/n1O65gt.jpeg" />
+                <img className="h-auto min-w-full rounded-[.420rem]" src="https://i.imgur.com/qwJT7ga.jpeg" />
               </div>
             </div>
 
@@ -120,10 +118,6 @@ export default function Mec() {
                 <video className="h-auto min-w-full rounded-[.420rem]" autoPlay muted loop>
                   <source src="https://i.imgur.com/XAQHbiM.mp4" type="video/mp4" />
                 </video>
-              </div>
-
-              <div>
-                <img className="h-auto min-w-full rounded-[.420rem]" src="https://i.imgur.com/qwJT7ga.jpeg" />
               </div>
 
               <div>
@@ -151,7 +145,7 @@ export default function Mec() {
               </div>
 
               <div>
-                <img className="h-auto min-w-full rounded-[.420rem]" src="https://i.imgur.com/JsAFMRq.jpeg" />
+                <img className="h-auto min-w-full rounded-[.420rem]" src="https://i.imgur.com/xWc8F2A.jpeg" />
               </div>
             </div>
 
@@ -167,11 +161,17 @@ export default function Mec() {
               </div>
 
               <div>
-                <img className="h-auto min-w-full rounded-[.420rem]" src="https://i.imgur.com/YS9hj2I.png" />
+                <img className="h-auto min-w-full rounded-[.420rem]" src="https://i.imgur.com/sG3LmsS.png" />
               </div>
 
               <div>
-                <img className="h-auto min-w-full rounded-[.420rem]" src="https://i.imgur.com/PEyqvx0.jpeg" />
+                <img className="h-auto min-w-full rounded-[.420rem]" src="https://i.imgur.com/bUpmgXH.jpeg" />
+              </div>
+
+              <div>
+                <video className="h-auto min-w-full rounded-[.420rem]" autoPlay muted loop>
+                  <source src="https://i.imgur.com/68bbG0D.mp4" type="video/mp4" />
+                </video>
               </div>
             </div>
           </div>
@@ -181,6 +181,8 @@ export default function Mec() {
           <p className="text-white font-thin text-opacity-25 text-sm leading-none">&copy; {new Date().getFullYear()} trem tiroteio. todos os direitos reservados.</p>
         </footer>
       </div>
+
+      <div className="absolute inset-0 pointer-events-none" />
     </div>
   );
 }
