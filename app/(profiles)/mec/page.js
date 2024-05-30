@@ -75,7 +75,7 @@ export default function Mec() {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-[.420rem]">
             <div className="grid gap-[.420rem] h-fit">
               <div>
-                <video className="h-auto min-w-full rounded-[.420rem]" autoPlay muted loop>
+                <video playsInline className="h-auto min-w-full rounded-[.420rem]" autoPlay muted loop>
                   <source src="https://i.imgur.com/uyVfk84.mp4" type="video/mp4" />
                 </video>
               </div>
@@ -85,7 +85,7 @@ export default function Mec() {
               </div>
 
               <div>
-                <video className="h-auto min-w-full rounded-[.420rem]" autoPlay muted loop>
+                <video playsInline className="h-auto min-w-full rounded-[.420rem]" autoPlay muted loop>
                   <source src="https://i.imgur.com/TaF0IF0.mp4" type="video/mp4" />
                 </video>
               </div>
@@ -105,7 +105,7 @@ export default function Mec() {
               </div>
 
               <div>
-                <video className="h-auto min-w-full rounded-[.420rem]" autoPlay muted loop>
+                <video playsInline className="h-auto min-w-full rounded-[.420rem]" autoPlay muted loop>
                   <source src="https://i.imgur.com/9k6GqhZ.mp4" type="video/mp4" />
                 </video>
               </div>
@@ -115,13 +115,13 @@ export default function Mec() {
               </div>
 
               <div>
-                <video className="h-auto min-w-full rounded-[.420rem]" autoPlay muted loop>
+                <video playsInline className="h-auto min-w-full rounded-[.420rem]" autoPlay muted loop>
                   <source src="https://i.imgur.com/XAQHbiM.mp4" type="video/mp4" />
                 </video>
               </div>
 
               <div>
-                <video className="h-auto min-w-full rounded-[.420rem]" autoPlay muted loop>
+                <video playsInline className="h-auto min-w-full rounded-[.420rem]" autoPlay muted loop>
                   <source src="https://i.imgur.com/pnmL0Ka.mp4" type="video/mp4" />
                 </video>
               </div>
@@ -129,7 +129,7 @@ export default function Mec() {
 
             <div className="grid gap-[.420rem] h-fit">
               <div>
-                <video className="h-auto min-w-full rounded-[.420rem]" autoPlay muted loop>
+                <video playsInline className="h-auto min-w-full rounded-[.420rem]" autoPlay muted loop>
                   <source src="https://i.imgur.com/RJ81Zc3.mp4" type="video/mp4" />
                 </video>
               </div>
@@ -139,7 +139,7 @@ export default function Mec() {
               </div>
 
               <div>
-                <video className="h-auto min-w-full rounded-[.420rem]" autoPlay muted loop>
+                <video playsInline className="h-auto min-w-full rounded-[.420rem]" autoPlay muted loop>
                   <source src="https://i.imgur.com/PoUU4EV.mp4" type="video/mp4" />
                 </video>
               </div>
@@ -155,7 +155,7 @@ export default function Mec() {
               </div>
 
               <div>
-                <video className="h-auto min-w-full rounded-[.420rem]" autoPlay muted loop>
+                <video playsInline className="h-auto min-w-full rounded-[.420rem]" autoPlay muted loop>
                   <source src="https://i.imgur.com/IKaCIgv.mp4" type="video/mp4" />
                 </video>
               </div>
@@ -169,7 +169,7 @@ export default function Mec() {
               </div>
 
               <div>
-                <video className="h-auto min-w-full rounded-[.420rem]" autoPlay muted loop>
+                <video playsInline className="h-auto min-w-full rounded-[.420rem]" autoPlay muted loop>
                   <source src="https://i.imgur.com/68bbG0D.mp4" type="video/mp4" />
                 </video>
               </div>
@@ -181,8 +181,6 @@ export default function Mec() {
           <p className="text-white font-thin text-opacity-25 text-sm leading-none">&copy; {new Date().getFullYear()} trem tiroteio. todos os direitos reservados.</p>
         </footer>
       </div>
-
-      <div className="absolute inset-0 pointer-events-none" />
     </div>
   );
 }
