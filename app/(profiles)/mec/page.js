@@ -33,7 +33,7 @@ export default function Mec() {
         <>
           <iframe
             className="absolute hidden lg:block h-[175%] w-[200%] top-[-40%] left-[-50%] blur-lg grayscale contrast-200 brightness-200"
-            src="https://www.youtube-nocookie.com/embed/eOWcoTKu3dI?autoplay=1&amp;controls=0"
+            src="https://www.youtube-nocookie.com/embed/R0ykLlhg0AQ?autoplay=1&amp;controls=0"
             title="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerPolicy="strict-origin-when-cross-origin"
