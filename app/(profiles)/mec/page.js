@@ -30,21 +30,25 @@ export default function Mec() {
       </AnimatePresence>
 
       {isProtected ? null : (
-        <iframe
-          className="absolute hidden lg:block h-[175%] w-[175%] top-[-40%] left-[-25%]"
-          src="https://www.youtube-nocookie.com/embed/mM0d9Pv7zr0?si=kJ-jeaYoH9ANjPm7&amp;autoplay=1&amp;controls=0"
-          title="YouTube video player"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerPolicy="strict-origin-when-cross-origin"
-          allowFullScreen
-        />
+        <>
+          <iframe
+            className="absolute hidden lg:block h-[175%] w-[200%] top-[-40%] left-[-50%] blur-lg grayscale contrast-200 brightness-200"
+            src="https://www.youtube-nocookie.com/embed/u_BK6Gt5Fek?autoplay=1&amp;controls=0"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          />
+
+          <div className="absolute inset-0 opacity-75 noise" />
+        </>
       )}
 
-      <div className="absolute inset-0 flex flex-col gap-[.420rem] p-[.420rem] lg:px-[12rem] lg:py-[4.20rem] overflow-auto bg-black bg-opacity-75 backdrop-blur-sm lg:backdrop-blur backdrop-grayscale backdrop-contrast-200 backdrop-brightness-200">
+      <div className="absolute inset-0 flex flex-col gap-[.420rem] p-[.420rem] lg:px-[12rem] lg:py-[4.20rem] overflow-auto">
         <header>
           <div className="flex gap-[.420rem]">
             <div className="w-[120px] h-[120px]">
-              <img className="h-full w-full rounded-[.420rem] shadow" src="/mec/profile.gif" />
+              <img className="h-full w-full rounded-[.420rem] shadow contrast-[1.1]" src="https://i.imgur.com/i23bXZQ.gif" />
             </div>
 
             <div className="flex flex-col gap-[.420rem] mt-auto mb-px">
@@ -72,59 +76,59 @@ export default function Mec() {
             <div className="grid gap-[.420rem] h-fit">
               <div>
                 <video className="h-auto min-w-full rounded-[.420rem]" autoPlay muted loop>
-                  <source src="/mec/1.mp4" type="video/mp4" />
+                  <source src="https://i.imgur.com/uyVfk84.mp4" type="video/mp4" />
                 </video>
               </div>
 
               <div>
-                <img className="h-auto min-w-full rounded-[.420rem]" src="/mec/1.jpg" />
+                <img className="h-auto min-w-full rounded-[.420rem]" src="https://i.imgur.com/yRkU6SG.jpeg" />
               </div>
 
               <div>
                 <video className="h-auto min-w-full rounded-[.420rem]" autoPlay muted loop>
-                  <source src="/mec/2.mp4" type="video/mp4" />
+                  <source src="https://i.imgur.com/TaF0IF0.mp4" type="video/mp4" />
                 </video>
               </div>
 
               <div>
                 <video className="h-auto min-w-full rounded-[.420rem]" autoPlay muted loop>
-                  <source src="/mec/8.mp4" type="video/mp4" />
+                  <source src="https://i.imgur.com/68bbG0D.mp4" type="video/mp4" />
                 </video>
               </div>
 
               <div>
-                <img className="h-auto min-w-full rounded-[.420rem]" src="/mec/10.jpg" />
+                <img className="h-auto min-w-full rounded-[.420rem]" src="https://i.imgur.com/n1O65gt.jpeg" />
               </div>
             </div>
 
             <div className="grid gap-[.420rem] h-fit">
               <div>
-                <img className="h-auto min-w-full rounded-[.420rem]" src="/mec/2.jpg" />
+                <img className="h-auto min-w-full rounded-[.420rem]" src="https://i.imgur.com/XYqJIDy.jpeg" />
               </div>
 
               <div>
                 <video className="h-auto min-w-full rounded-[.420rem]" autoPlay muted loop>
-                  <source src="/mec/3.mp4" type="video/mp4" />
+                  <source src="https://i.imgur.com/9k6GqhZ.mp4" type="video/mp4" />
                 </video>
               </div>
 
               <div>
-                <img className="h-auto min-w-full rounded-[.420rem]" src="/mec/8.png" />
+                <img className="h-auto min-w-full rounded-[.420rem]" src="https://i.imgur.com/fdrxdd0.png" />
               </div>
 
               <div>
                 <video className="h-auto min-w-full rounded-[.420rem]" autoPlay muted loop>
-                  <source src="/mec/4.mp4" type="video/mp4" />
+                  <source src="https://i.imgur.com/XAQHbiM.mp4" type="video/mp4" />
                 </video>
               </div>
 
               <div>
-                <img className="h-auto min-w-full rounded-[.420rem]" src="/mec/9.jpg" />
+                <img className="h-auto min-w-full rounded-[.420rem]" src="https://i.imgur.com/qwJT7ga.jpeg" />
               </div>
 
               <div>
                 <video className="h-auto min-w-full rounded-[.420rem]" autoPlay muted loop>
-                  <source src="/mec/9.mp4" type="video/mp4" />
+                  <source src="https://i.imgur.com/pnmL0Ka.mp4" type="video/mp4" />
                 </video>
               </div>
             </div>
@@ -132,42 +136,42 @@ export default function Mec() {
             <div className="grid gap-[.420rem] h-fit">
               <div>
                 <video className="h-auto min-w-full rounded-[.420rem]" autoPlay muted loop>
-                  <source src="/mec/5.mp4" type="video/mp4" />
+                  <source src="https://i.imgur.com/RJ81Zc3.mp4" type="video/mp4" />
                 </video>
               </div>
 
               <div>
-                <img className="h-auto min-w-full rounded-[.420rem]" src="/mec/5.jpeg" />
+                <img className="h-auto min-w-full rounded-[.420rem]" src="https://i.imgur.com/TUtm95g.jpeg" />
               </div>
 
               <div>
                 <video className="h-auto min-w-full rounded-[.420rem]" autoPlay muted loop>
-                  <source src="/mec/6.mp4" type="video/mp4" />
+                  <source src="https://i.imgur.com/PoUU4EV.mp4" type="video/mp4" />
                 </video>
               </div>
 
               <div>
-                <img className="h-auto min-w-full rounded-[.420rem]" src="/mec/7.jpg" />
+                <img className="h-auto min-w-full rounded-[.420rem]" src="https://i.imgur.com/JsAFMRq.jpeg" />
               </div>
             </div>
 
             <div className="grid gap-[.420rem] h-fit">
               <div>
-                <img className="h-auto min-w-full rounded-[.420rem]" src="/mec/3.jpg" />
+                <img className="h-auto min-w-full rounded-[.420rem]" src="https://i.imgur.com/Tauo11l.jpeg" />
               </div>
 
               <div>
                 <video className="h-auto min-w-full rounded-[.420rem]" autoPlay muted loop>
-                  <source src="/mec/7.mp4" type="video/mp4" />
+                  <source src="https://i.imgur.com/IKaCIgv.mp4" type="video/mp4" />
                 </video>
               </div>
 
               <div>
-                <img className="h-auto min-w-full rounded-[.420rem]" src="/mec/4.jpg" />
+                <img className="h-auto min-w-full rounded-[.420rem]" src="https://i.imgur.com/YS9hj2I.png" />
               </div>
 
               <div>
-                <img className="h-auto min-w-full rounded-[.420rem]" src="/mec/6.jpg" />
+                <img className="h-auto min-w-full rounded-[.420rem]" src="https://i.imgur.com/PEyqvx0.jpeg" />
               </div>
             </div>
           </div>
