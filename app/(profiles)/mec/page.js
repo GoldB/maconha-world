@@ -48,7 +48,7 @@ export default function Mec() {
         <header>
           <div className="flex gap-[.420rem]">
             <div className="w-[120px] h-[120px]">
-              <img className="h-full w-full rounded-[.420rem] shadow contrast-[1.1]" src="https://i.imgur.com/i23bXZQ.gif" />
+              <img className="h-full w-full rounded-[.420rem] contrast-[1.1]" src="https://i.imgur.com/i23bXZQ.gif" />
             </div>
 
             <div className="flex flex-col gap-[.420rem] mt-auto mb-px">
@@ -150,6 +150,14 @@ export default function Mec() {
             </div>
 
             <div className="grid gap-[.420rem] h-fit">
+              <a href="https://www.youtube.com/watch?v=QLSMAW2d3rw" target="_blank" className="hidden lg:block -mt-0.5 space-y-[.420rem] opacity-25 hover:opacity-100 transition-all duration-75">
+                <h3 className="font-thin leading-none">Rudies Flacko</h3>
+
+                <h2 className="text-2xl font-black leading-none">Como que vou ficar broke</h2>
+
+                <h4 className="text-sm font-thin leading-none">Feat. Aka Rasta, NaNa</h4>
+              </a>
+
               <div>
                 <img className="h-auto min-w-full rounded-[.420rem]" src="https://i.imgur.com/Tauo11l.jpeg" />
               </div>
