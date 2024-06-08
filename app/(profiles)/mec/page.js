@@ -32,8 +32,8 @@ export default function Mec() {
       {isProtected ? null : (
         <>
           <iframe
-            className="absolute hidden lg:block h-[150%] w-[200%] top-[-40%] left-[-50%] blur-lg grayscale contrast-200 brightness-200"
-            src="https://www.youtube-nocookie.com/embed/l3glrN_Ppn4?autoplay=1&amp;controls=0"
+            className="absolute hidden lg:block h-[150%] w-[200%] top-[-40%] left-[-50%] blur grayscale contrast-200 brightness-200"
+            src="https://www.youtube-nocookie.com/embed/QLSMAW2d3rw?autoplay=1&amp;controls=0"
             title="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerPolicy="strict-origin-when-cross-origin"
