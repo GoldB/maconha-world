@@ -186,7 +186,7 @@ export default function Mec() {
         </main>
 
         <footer className="mt-0 lg:mt-[4.20rem] text-center">
-          <p className="text-white font-thin text-opacity-25 text-sm leading-none">&copy; {new Date().getFullYear()} trem tiroteio. todos os direitos reservados.</p>
+          <p className="text-white font-thin text-opacity-25 text-sm leading-none group z-10">&copy; {new Date().getFullYear()} <span className="group-hover:text-green-500 transition-all duration-75">trem tiroteio</span>. todos os direitos reservados.</p>
         </footer>
       </div>
     </div>
