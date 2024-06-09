@@ -114,7 +114,7 @@ export default function Mec() {
             </div>
 
             <div className="grid gap-[.420rem] h-fit">
-              <a href="https://www.youtube.com/watch?v=QLSMAW2d3rw" target="_blank" className="hidden lg:block -mt-0.5 space-y-[.420rem] opacity-25 hover:opacity-100 transition-all duration-75">
+              <a href="https://www.youtube.com/watch?v=Wa5B22KAkEk" target="_blank" className="hidden lg:block -mt-0.5 space-y-[.420rem] opacity-25 hover:opacity-100 transition-all duration-75">
                 <h3 className="font-thin leading-none">Snoop Dogg & Wiz Khalifa</h3>
 
                 <h2 className="text-2xl font-black leading-none">Young, Wild and Free</h2>
