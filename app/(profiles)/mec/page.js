@@ -97,6 +97,10 @@ export default function Mec() {
               <div>
                 <img className="h-auto min-w-full rounded-[.420rem]" src="https://i.imgur.com/qwJT7ga.jpeg" />
               </div>
+
+              <div>
+                <img className="h-auto min-w-full rounded-[.420rem]" src="https://i.imgur.com/VvM1QUp.jpg" />
+              </div>
             </div>
 
             <div className="grid gap-[.420rem] h-fit">
@@ -125,6 +129,10 @@ export default function Mec() {
                   <source src="https://i.imgur.com/pnmL0Ka.mp4" type="video/mp4" />
                 </video>
               </div>
+
+              <div>
+                <img className="h-auto min-w-full rounded-[.420rem]" src="https://i.imgur.com/v6T7cYs.png" />
+              </div>
             </div>
 
             <div className="grid gap-[.420rem] h-fit">
@@ -146,6 +154,10 @@ export default function Mec() {
 
               <div>
                 <img className="h-auto min-w-full rounded-[.420rem]" src="https://i.imgur.com/xWc8F2A.jpeg" />
+              </div>
+
+              <div>
+                <img className="h-auto min-w-full rounded-[.420rem]" src="https://i.imgur.com/RCNZ6DF.png" />
               </div>
             </div>
 
@@ -180,6 +192,10 @@ export default function Mec() {
                 <video playsInline className="h-auto min-w-full rounded-[.420rem]" autoPlay muted loop>
                   <source src="https://i.imgur.com/68bbG0D.mp4" type="video/mp4" />
                 </video>
+              </div>
+
+              <div>
+                <img className="h-auto min-w-full rounded-[.420rem]" src="https://i.imgur.com/sCMcknE.png" />
               </div>
             </div>
           </div>
