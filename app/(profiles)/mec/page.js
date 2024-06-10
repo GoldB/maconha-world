@@ -99,7 +99,7 @@ export default function Mec() {
               </div>
 
               <div>
-                <img className="h-auto min-w-full rounded-[.420rem]" src="https://i.imgur.com/VvM1QUp.jpg" />
+                <img className="h-auto min-w-full rounded-[.420rem]" src="https://i.imgur.com/JiLCf2D.png" />
               </div>
             </div>
 
@@ -131,7 +131,7 @@ export default function Mec() {
               </div>
 
               <div>
-                <img className="h-auto min-w-full rounded-[.420rem]" src="https://i.imgur.com/v6T7cYs.png" />
+                <img className="h-auto min-w-full rounded-[.420rem]" src="https://i.imgur.com/CIoJ9CG.png" />
               </div>
             </div>
 
@@ -157,7 +157,7 @@ export default function Mec() {
               </div>
 
               <div>
-                <img className="h-auto min-w-full rounded-[.420rem]" src="https://i.imgur.com/RCNZ6DF.png" />
+                <img className="h-auto min-w-full rounded-[.420rem]" src="https://i.imgur.com/r5pcuBP.jpeg" />
               </div>
             </div>
 
@@ -192,10 +192,6 @@ export default function Mec() {
                 <video playsInline className="h-auto min-w-full rounded-[.420rem]" autoPlay muted loop>
                   <source src="https://i.imgur.com/68bbG0D.mp4" type="video/mp4" />
                 </video>
-              </div>
-
-              <div>
-                <img className="h-auto min-w-full rounded-[.420rem]" src="https://i.imgur.com/sCMcknE.png" />
               </div>
             </div>
           </div>
