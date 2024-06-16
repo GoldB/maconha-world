@@ -33,7 +33,7 @@ export default function Mec() {
         <>
           <iframe
             className="absolute hidden lg:block h-[150%] w-[200%] top-[-40%] left-[-50%] blur grayscale contrast-200 brightness-200"
-            src="https://www.youtube-nocookie.com/embed/QLSMAW2d3rw?autoplay=1&amp;controls=0"
+            src="https://www.youtube-nocookie.com/embed/DS2Ft-V3Sy8?autoplay=1&amp;controls=0"
             title="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerPolicy="strict-origin-when-cross-origin"
@@ -162,12 +162,12 @@ export default function Mec() {
             </div>
 
             <div className="grid gap-[.420rem] h-fit">
-              <a href="https://www.youtube.com/watch?v=QLSMAW2d3rw" target="_blank" className="hidden lg:block -mt-0.5 space-y-[.420rem] opacity-25 hover:opacity-100 transition-all duration-75">
-                <h3 className="font-thin leading-none">Rudies Flacko</h3>
+              <a href="https://www.youtube.com/watch?v=DS2Ft-V3Sy8" target="_blank" className="hidden lg:block -mt-0.5 space-y-[.420rem] opacity-25 hover:opacity-100 transition-all duration-75">
+                <h3 className="font-thin leading-none">Recayd Mob</h3>
 
-                <h2 className="text-2xl font-black leading-none">Como que vou ficar broke</h2>
+                <h2 className="text-2xl font-black leading-none">16. Haters</h2>
 
-                <h4 className="text-sm font-thin leading-none">Feat. Aka Rasta, NaNa</h4>
+                <h4 className="text-sm font-thin leading-none">Feat. MC Igu, Jé Santiago, Derek & Dfideliz</h4>
               </a>
 
               <div>
