@@ -129,10 +129,6 @@ export default function Mec() {
                   <source src="https://i.imgur.com/pnmL0Ka.mp4" type="video/mp4" />
                 </video>
               </div>
-
-              <div>
-                <img className="h-auto min-w-full rounded-[.420rem]" src="https://i.imgur.com/CIoJ9CG.png" />
-              </div>
             </div>
 
             <div className="grid gap-[.420rem] h-fit">
